@@ -1,0 +1,295 @@
+/* 
+
+Tinker CSS Template
+
+https://templatemo.com/tm-506-tinker
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', arial, sans-serif; */
+	
+	/* font-family: 'Luckiest Guy', cursive; */
+
+	font-family: 'Schoolbell', cursive;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+}
+
+#home p {
+	color: #7a7a7a;
+	font-size: 30px;
+	line-height: 34px;
+}
+
+.parallax-content {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.primary-white-button a {
+	display: inline-block;
+	background-color: #f89624;
+	font-size: 20px;
+	padding: 12px 18px;
+	color: #121212;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.primary-blue-button a {
+	display: inline-block;
+	background-color: #33c1cf;
+	font-size: 30px;
+	padding: 12px 18px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.pop-button h4 {
+	display: inline-block;
+	background-color: #33c1cf;
+	font-size: 13px!important;
+	padding: 12px 18px;
+	color: #fff;
+	font-weight: 400!important;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.page-section {
+    padding: 80px 0;
+}
+
+.parallax-content {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url(../img/banner_bg.jpg);
+}
+
+.baner-content {
+	width: 100%;
+  	padding-top: 30vh;
+  	text-align: center;
+  	vertical-align: middle;
+	position: absolute;
+}
+
+.baner-content .text-content {
+	text-align: center;
+}
+
+.baner-content .text-content h2 span {
+	font-weight: 700;
+	color: #33c1cf!important;
+}
+
+.baner-content .text-content h2 em {
+	font-style: normal;
+	font-weight: 700;
+	color: #f89624!important;
+}
+
+.baner-content .text-content p {
+	color: black;
+	font-size: 28px;
+	line-height: 34px;
+	padding: 0px 10%;
+}
+
+.baner-content .text-content .primary-white-button {
+	margin-top: 25px;
+}
+
+#about {
+	padding: 150px 0px;
+	background-image: url(../img/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#about .service-item {
+	text-align: center;
+}
+
+#about .service-item .icon {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+	line-height: 104px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding-top: 14px;
+	background-color: rgba(243, 193, 79,0.5);
+}
+
+#about .service-item h4 {
+	margin-bottom: 30px;
+	margin-top: 45px;
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#about .service-item .line-dec {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+#about .service-item p {
+	color: #fff;
+	margin-top: 30px;
+}
+
+#about .service-item .primary-blue-button {
+	margin-top: 35px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    .page-section h1 {
+        font-size: 3em;
+    }
+    .page-section h2 {
+        font-size: 2em;
+    }
+    .page-section p {
+        font-size: 1em;
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 991px){
+
+	.baner-content .text-content p {
+		padding: 0px 15%;
+	}
+
+
+	#about .service-item {
+		margin-bottom: 80px;
+	} 	
+}
+
+@media (max-width: 768px){
+
+	.baner-content .text-content p {
+		padding: 0px 10%;
+	}	
+
+}
+
+/* RESPONSIVE BAR-CONTENT */
+@media (min-height: 568px){
+	.baner-content {
+		padding: 4% 0px;
+	}
+	#about {
+		padding: 4% 0px;
+	}
+}
+
+@media (min-height: 640px){
+	.baner-content {
+		padding: 15% 0px;
+	}
+	#about {
+		padding: 15% 0px;
+	}
+}
+
+@media (min-height: 731px){
+	.baner-content {
+		padding: 30% 0px;
+	}
+	#about {
+		padding: 30% 0px;
+	}
+}
+
+@media (min-height: 823px){
+	.baner-content {
+		padding: 22% 0px;
+	}
+	#about {
+		padding: 22% 0px;
+	}
+}
+
+input[type=text] {
+	font-size: 40px;
+	text-align: center; 
+}
+
+input[type=text] {
+  	display: inline-block;
+	color: black;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.411);
+	border: none;
+	border-radius: 7px;
+	margin: 10px auto;
+	transition: background-color 0.5s ease;
+}
+
+input[type=text]:focus {
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: rgba(237, 32, 124, 0.658);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(237, 32, 123, 0.658);
+}
+
+::placeholder {
+  color: rgba(237, 32, 123, 0.658);
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+	font-weight: bold;
+}
+
+img {
+  max-width: 80%;
+}
+
+.swal2-popup {
+  font-size: 1.8rem !important;
+}
