@@ -293,3 +293,7 @@ img {
 .swal2-popup {
   font-size: 1.8rem !important;
 }
+
+.wow:first-child {
+	visibility: hidden;
+}

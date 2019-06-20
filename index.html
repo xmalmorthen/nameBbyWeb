@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Ale&Angel</title>
         <meta name="description" content="Ayudanos a encontrar el nombre...">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
         
         <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
         
@@ -15,235 +15,71 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/animateV3.7.2.css">
         <link rel="stylesheet" href="css/templatemo-style.css">        
 
     </head>
-<body class="animated fadeIn">
-
+<body>    
+    <div id='body' class="wow fadeIn" data-wow-duration="300ms" style="">
     
-    <img id="scream" src="img/iconBibi.png" alt="" style="display: none">    
-    <canvas id="canvas"></canvas>
+        <img id="scream" src="img/iconBibi.png" alt="" style="display: none">    
+        <canvas id="canvas"></canvas>
 
-    <div class="container baner-content">
-        <div class="text-content">
-            <h1 class="display-1 animated swing delay-1s fast">Ale & Angel</h1>
-            <br>
-            <div class="animated rubberBand delay-2s">
-                <h1>¿¿¿ nos ayudas ???</h1>
+        <div class="container baner-content">
+            <div class="text-content">
+                <h1 class="display-1 wow swing" data-wow-duration="1000ms" data-wow-delay="1s">Ale & Angel</h1>
                 <br>
-                <p>Estamos buscando el nombre para nuestro BB. <br> Aún no sabemos el sexo pero sugiere un nombre para niña o niño...</p>
-            </div>
-            <div class="primary-white-button">
-                <a href="#" class="scroll-link animated infinite pulse delay-1s fast" data-id="#about .container"> ¡¡¡¡ Ok acepto !!!!</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="parallax-content" id="home"></div>
-    
-    <section id="about" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/ninia.png" alt="">
-                        </div>
-                        <h1 class="display-1" style="letter-spacing: 15px;">Niña</h1>
-                        <div class="line-dec"></div>
-                        <input type="text" name="ninia" id="ninia" placeholder="nombre aqui...!!!">
-                    </div>
+                <div class="wow rubberBand" data-wow-duration="1000ms" data-wow-delay="2s">
+                    <h1>¿¿¿ nos ayudas ???</h1>
+                    <br>
+                    <p>Estamos buscando el nombre para nuestro BB. <br> Aún no sabemos el sexo pero sugiere un nombre para niña o niño...</p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/ninio.png" alt="">
-                        </div>
-                        <h1 class="display-1" style="letter-spacing: 15px;">Niño</h1>
-                        <div class="line-dec"></div>
-                        <input type="text" name="ninio" id="ninio" placeholder="nombre aqui...!!!">
-                    </div>
-                </div>                
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link wow pulse" data-id="#about .container" data-wow-iteration="infinite" data-wow-duration="1000ms" data-wow-delay="1s"> ¡¡¡¡ Ok acepto !!!!</a>
+                </div>
             </div>
-            <div class="primary-blue-button animated infinite pulse delay-1s fast" style="text-align: center; padding-top: 15px;">
-                <a id='registrarBtn' href="#">Registrar nombre(s)</a>
-            </div>            
         </div>
-    </section>
+
+        <div class="parallax-content" id="home"></div>
+        
+        <section id="about" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="service-item">
+                            <div class="icon wow" data-wow-duration="1000ms" data-wow-delay="0s">
+                                <img src="img/ninia.png" alt="">
+                            </div>
+                            <h1 class="display-1 wow" data-wow-duration="1000ms" data-wow-delay="0s" style="letter-spacing: 15px;">Niña</h1>
+                            <div class="line-dec"></div>
+                            <input type="text" name="ninia" id="ninia" placeholder="nombre aqui...!!!">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="service-item">
+                            <div class="icon wow" data-wow-duration="1000ms" data-wow-delay="0s">
+                                <img src="img/ninio.png" alt="">
+                            </div>
+                            <h1 class="display-1 wow" data-wow-duration="1000ms" data-wow-delay="0s" style="letter-spacing: 15px;">Niño</h1>
+                            <div class="line-dec"></div>
+                            <input type="text" name="ninio" id="ninio" placeholder="nombre aqui...!!!">
+                        </div>
+                    </div>                
+                </div>
+                <div class="primary-blue-button wow pulse" data-wow-iteration="infinite" data-wow-duration="1000ms" data-wow-delay="1s" style="text-align: center; padding-top: 15px;">
+                    <a id='registrarBtn' href="#">Registrar nombre(s)</a>
+                </div>            
+            </div>
+        </section>
+        
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/398c959952.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/vendor/wow.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script type="text/javascript">
-
-        var ctx = null;
-        var canvas = null;
-        var interval = null;
-        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        function snow(){
-            
-            var W = window.innerWidth;
-            var H = window.innerHeight;
-
-            //canvas init
-            if (!canvas)
-                canvas = document.getElementById("canvas");
-            
-            canvas.width = W;
-            canvas.height = H;
-
-            if (!ctx)
-                ctx = canvas.getContext("2d");
-            else 
-                ctx.clearRect(0, 0, W, H);
-            
-            //snowflake particles
-            var mp = 10; //max particles
-            var particles = [];
-            for(var i = 0; i < mp; i++)
-            {
-                particles.push({
-                    x: Math.random()*W, //x-coordinate
-                    y: Math.random()*H, //y-coordinate
-                    r: Math.random()*4+1, //radius
-                    d: Math.random()*mp //density
-                })
-            }
-            
-            //Lets draw the flakes
-            function draw()
-            {
-                ctx.clearRect(0, 0, W, H);
-
-                size = Math.floor(Math.random() * 21); 
-                for(var i = 0; i < mp; i++)
-                {
-                    var p = particles[i];
-                    ctx.moveTo(p.x, p.y);
-
-                    ctx.drawImage(document.getElementById("scream"), p.x, p.y, 15, 15);
-                    // ctx.arc(p.x, p.y, p.r, 0, Math.PI*2, true);
-                }
-                // ctx.fill();
-
-                update();
-            }
-            
-            //Function to move the snowflakes
-            //angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
-            var angle = 0;
-            function update()
-            {
-                angle += 0.01;
-                for(var i = 0; i < mp; i++)
-                {
-                    var p = particles[i];
-                    //Updating X and Y coordinates
-                    //We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
-                    //Every particle has its own density which can be used to make the downward movement different for each flake
-                    //Lets make it more random by adding in the radius
-                    p.y += Math.cos(angle+p.d) + 1 + p.r/2;
-                    p.x += Math.sin(angle) * 2;
-                    
-                    //Sending flakes back from the top when it exits
-                    //Lets make it a bit more organic and let flakes enter from the left and right also.
-                    if(p.x > W+5 || p.x < -5 || p.y > H)
-                    {
-                        if(i%3 > 0) //66.67% of the flakes
-                        {
-                            particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
-                        }
-                        else
-                        {
-                            //If the flake is exitting from the right
-                            if(Math.sin(angle) > 0)
-                            {
-                                //Enter from the left
-                                particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
-                            }
-                            else
-                            {
-                                //Enter from the right
-                                particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
-                            }
-                        }
-                    }
-                }
-            }
-            
-            //animation loop
-            if (interval)
-                clearInterval( interval );
-
-            interval = setInterval(draw, 33);
-        }
-
-        window.onload = snow;
-        // window.onresize = snow;
-
-        $(document).ready(function() {
-            // navigation click actions 
-            $('.scroll-link').on('click', function(event){
-                event.preventDefault();
-                var sectionID = $(this).attr("data-id");
-                scrollToID( sectionID, 750);            
-            });
-            
-            $('#registrarBtn').on('click', function(event){
-                event.preventDefault();
-                
-                $.LoadingOverlay("show", {image:"",fontawesome:"fa fa-cog fa-spin"});
-                setTimeout(function(){
-                    $.LoadingOverlay("hide",true);
-                    Swal.fire({
-                        title: 'Registrado',
-                        type: 'success',
-                        html: 'Agradecemos tus sugerencias...!!!',
-                        animation: false,
-                        showConfirmButton: false,
-                        timer: 3000,
-                        customClass: {
-                            popup: 'animated tada'
-                        }
-                    })
-                }, 1000);
-
-            });
-
-        });
-        // scroll function
-        function scrollToID(id, speed, callback){
-            var offSet = 0;
-            var targetOffset = $(id).offset().top - offSet;
-            var mainNav = $('#main-nav');
-            $('html,body').animate({scrollTop:targetOffset}, speed, function(){ 
-                initForm();
-            });
-        }
-        if (typeof console === "undefined") {
-            console = {
-                log: function() { }
-            };
-        }
-        
-        var initedForm = false;
-        function initForm(){
-            if (!initedForm) {
-                
-                initedForm = true;
-
-                $('#about>.container .service-item .icon').addClass('animated rubberBand delay-1s').one(animationEnd, function() {$(this).removeClass('animated rubberBand delay-1s');})
-                $('#about>.container .service-item h1').addClass('animated rubberBand delay-1s').one(animationEnd, function() {$(this).removeClass('animated rubberBand delay-1s');})
-                $('#ninia').focus();
-
-            }
-        }
-
-    </script>
 </body>
 </html>
